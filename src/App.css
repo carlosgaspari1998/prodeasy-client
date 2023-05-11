@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+}
+
+.demand {
+  flex-direction: column;
+}
+
+.list {
+  flex-direction: row;
+}
+
+.register-container {
+  padding: 10px 20px;
+  width: max-content;
+  height: max-content;
+
+  margin-top: 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  display: block;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 7px 0;
+}
+.description {
+  width: 100%;
+}
+
+.register-button {
+  padding: 5px 5px;
+  float: right;
+}
+
+.field {
+  flex-direction: row;
+}
